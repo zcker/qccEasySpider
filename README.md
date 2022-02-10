@@ -1,22 +1,34 @@
 # qccEasySpider
 
-ÓÉÓÚÐèÒªÆó²é²éµÄÅÀ³æ£¬ÔÚÍøÉÏÕÒÁËºÜ¾Ã£¬Òª²»ÊÇÄê¾ÃÊ§ÐÞ£¬Òª²»¾ÍÊÇ¹¦ÄÜÌ«¸´ÔÓÎÒ¸ù±¾ÓÃ²»µ½£¬Õâ¸ö°æ±¾Ö»ÅÀÈ¡³ö¹«Ë¾Ãû£¬·¨ÈËºÍµØÖ·£¬ÔÚÊ×Ò³ÉÏµÄ¼òµ¥µÄÓ¦ÓÃÒ²¿ÉÒÔÅÀ
+ç”±äºŽéœ€è¦ä¼æŸ¥æŸ¥çš„çˆ¬è™«ï¼Œåœ¨ç½‘ä¸Šæ‰¾äº†å¾ˆä¹…ï¼Œè¦ä¸æ˜¯å¹´ä¹…å¤±ä¿®ï¼Œè¦ä¸å°±æ˜¯åŠŸèƒ½å¤ªå¤æ‚æˆ‘æ ¹æœ¬ç”¨ä¸åˆ°ï¼Œè¿™ä¸ªç‰ˆæœ¬åªçˆ¬å–å‡ºå…¬å¸åï¼Œæ³•äººå’Œåœ°å€ï¼Œåœ¨é¦–é¡µä¸Šçš„ç®€å•çš„åº”ç”¨ä¹Ÿå¯ä»¥çˆ¬
 
-## ²Ù×÷
+## æ“ä½œ
 
-ÔÚdistÄ¿Â¼ÏÂµÄexeÎÄ¼þ¿ÉÒÔÖ±½ÓÔËÐÐ£¬Ê¹ÓÃpyinstaller±àÒë ÔÚenterprise_searchÎÄµµÖÐÐ´Èë¹«Ë¾Ãû²¢ÔËÐÐÐ´Èëinfo.xls
+åœ¨distç›®å½•ä¸‹çš„exeæ–‡ä»¶å¯ä»¥ç›´æŽ¥è¿è¡Œï¼Œä½¿ç”¨pyinstallerç¼–è¯‘ åœ¨enterprise_searchæ–‡æ¡£ä¸­å†™å…¥å…¬å¸åå¹¶è¿è¡Œå†™å…¥info.xls
 ![1.png](https://s2.loli.net/2022/02/10/BbOzMYowu98LdXI.png)
 
-## ÐÞ¸Ä
+## ä¿®æ”¹
 
-Ê¹ÓÃÁ½ÖÖÆ¥ÅäÄ£Ê½£¬Ò»ÖÖ½«HTMLÏÂÔØÏÂÀ´²Ù×÷£¬ÊÇÔ­À´µÄ£¬µ«ÊÇHTML¶ÔÓÚÕýÔò²»ºÃÓÃ ËùÒÔÎÒÔö¼ÓÁËÊ¹ÓÃrequests+bs4µÄ·½·¨£¬Ð´µÄºÜ¼òÂª£¬ÄÜÓÃ¾ÍÐÐ
+ä½¿ç”¨ä¸¤ç§åŒ¹é…æ¨¡å¼ï¼Œä¸€ç§å°†HTMLä¸‹è½½ä¸‹æ¥æ“ä½œï¼Œæ˜¯åŽŸæ¥çš„ï¼Œä½†æ˜¯HTMLå¯¹äºŽæ­£åˆ™ä¸å¥½ç”¨ æ‰€ä»¥æˆ‘å¢žåŠ äº†ä½¿ç”¨requests+bs4çš„æ–¹æ³•ï¼Œå†™çš„å¾ˆç®€é™‹ï¼Œèƒ½ç”¨å°±è¡Œ
 
-## ½á¹¹
+## ç»“æž„
 
-Spider-main ©À©¤ constant.py ³£Á¿£¬ÓÐÕýÔòÓÐrequestsÇëÇó½âÎö ©À©¤ dist ·ÅÉú³ÉexeµÄµØ·½ ©¦ ©À©¤ enterprise_search.txt ©¦ ©À©¤ info.xls ©¦ ©À©¤ main.exe
-©¦ ©¸©¤ test.txt ©À©¤ enterprise_search.txt ¶ÁÈ¡ËÑË÷ ©À©¤ img.ico ©À©¤ info.xls Êä³ö ©À©¤ main.py Ö÷º¯Êý ©À©¤ main.spec ©À©¤ spyder.py ÅÀÈ¡Êý¾Ý ©À©¤
-test.txt ©¸©¤ write_to_excel.py Êä³öµ½Excel
+Spider-main  
+â”œâ”€ constant.py å¸¸é‡ï¼Œæœ‰æ­£åˆ™æœ‰requestsè¯·æ±‚è§£æž  
+â”œâ”€ dist æ”¾ç”Ÿæˆexeçš„åœ°æ–¹  
+â”‚ â”œâ”€ enterprise_search.txt  
+â”‚ â”œâ”€ info.xls  
+â”‚ â”œâ”€ main.exe  
+â”‚ â””â”€ test.txt  
+â”œâ”€ enterprise_search.txt è¯»å–æœç´¢  
+â”œâ”€ img.ico  
+â”œâ”€ info.xls è¾“å‡º  
+â”œâ”€ main.py ä¸»å‡½æ•°  
+â”œâ”€ main.spec   
+â”œâ”€ spyder.py çˆ¬å–æ•°æ®  
+â”œâ”€ test.txt  
+â””â”€ write_to_excel.py è¾“å‡ºåˆ°Excel
 
-## ÖÂÐ»
+## è‡´è°¢
 
-ÔÚhttps://github.com/HerrZCD/spider »ù´¡ÉÏ¼ÓÒÔÐÞ¸Ä
+åœ¨https://github.com/HerrZCD/spider åŸºç¡€ä¸ŠåŠ ä»¥ä¿®æ”¹
